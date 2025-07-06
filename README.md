@@ -25,11 +25,11 @@ Este projeto é um exemplo simples de aplicação EJB com um Servlet usando Jaka
 ## Como executar o servidor WildFly
 
 1. Abra o terminal na pasta do WildFly, exemplo:
-
+	```bash
 	cd /caminho/para/wildfly-30.0.0.Final/bin
 
 2. Execute o WildFly com o script:
-
+	```bash
 	./standalone.sh
 
 3. Aguarde até que o WildFly inicie completamente.	
@@ -37,7 +37,7 @@ Este projeto é um exemplo simples de aplicação EJB com um Servlet usando Jaka
 ## Como fazer o deploy da aplicação
 
 1. Copie o arquivo WAR gerado para a pasta de deploy do WildFly:
-
+	```bash
 	cp /caminho/do/projeto/target/ejb-demo-1.0-SNAPSHOT.war /caminho/para/wildfly-30.0.0.Final/standalone/deployments/
 	
 2. O WildFly fará o deploy automaticamente.
@@ -46,11 +46,11 @@ Este projeto é um exemplo simples de aplicação EJB com um Servlet usando Jaka
 ## Como acessar o servlet
 
 1. Abra o navegador e acesse a URL:
-
+	```bash
 	http://localhost:8080/ejb-demo-1.0-SNAPSHOT/hello
 	
 2. Você verá a mensagem:
-
+	```bash
 	Olá usuario, este é um EJB!
 	
 ## Arquivos importantes do projeto
